@@ -12,7 +12,7 @@
     <h2>Arithmetic Expressions</h2>
 
     <%= form_for @conn, "/calc", fn f -> %>
-      <p>Enter expression: <%= text_input f, :expr, placeholder: "2 + 3 * 4" %></p>
+      <p>Enter expression with spaces: <%= text_input f, :expr, placeholder: "2 + 3 * 4" %></p>
       <p><%= submit "Evaluate" %></p>
     <% end %>
   </div>
@@ -23,16 +23,17 @@
     <h2>Prime Factors</h2>
 
     <%= form_for @conn, "/factor", fn f -> %>
-      <p>Enter number: <%= text_input f, :x %></p>
+      <p>Enter positive integer: <%= text_input f, :x %></p>
       <p><%= submit "Factor It" %></p>
     <% end %>
   </div>
   <div class="column">
     <h2>Palindrome?</h2>
 
-    <p>TODO: Add a form here that checks if a string is a palindrome.</p>
-    <p>INPUT BOX</p>
-    <p>SUBMIT BUTTON</p>
+    <%= form_for @conn, "/palindrome", fn f -> %>
+      <p>Enter string: <%= text_input f, :x %></p>
+      <p><%= submit "Check It" %></p>
+    <% end %>
   </div>
 </div>
 
