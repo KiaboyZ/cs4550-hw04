@@ -1,0 +1,38 @@
+Please fill in answers to the questions below:
+
+
+1. What's your name?
+	Kia Zafar
+
+2. What hostname did you deploy your app to?
+	hw04.kia.town
+
+3. What's the URL of your git for this assignment?
+	https://github.com/KiaboyZ/cs4550-hw04
+
+4. How much of the functionality did you complete?
+	I was able to do everything except for getting the service to keep
+running my app after I closed the terminal.
+
+5. Did you successfully deploy? If not, what's broken?
+	Same answer as number 4.
+
+6. How comfortable do you feel with Elixir now?
+	On a scale of 1-10, maybe a 5 or 6 with the language but more like a
+1 or 2 for getting it to work with my server.
+
+7. Which parts of this assignment did you have trouble with, if any?
+	I had trouble with every part of the assignment more or less (coding
+in elixir, figuring out why I wasn't passing tests, getting my code working
+on the server, deploying, etc.)
+
+
+And here's a list of tasks for grading comments. Just leave this here:
+ - Task 1
+ - Task 2
+ - Task 3
+ - Task 4
+ - Task 5
+ - Task 6
+ - Task 7
+ - Task 8
